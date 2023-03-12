@@ -1,3 +1,12 @@
+'''
+1. Print the level of the password security and if the password is acceptable
+    Weak - only alphabets or only numbers or only special chars
+    Ok - at least one alphabet, one number and one special char
+    strong - at least three alphabets, two numbers and one special char
+    Very strong - same as strong, but at least 16 count
+
+    All passwords must be at least 8 chars long. You can use RegEx if you want.
+'''
 
 alphabetCount = 0
 splCharCount = 0

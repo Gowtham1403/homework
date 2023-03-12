@@ -1,3 +1,13 @@
+'''
+Write an app for a phone sales man. The Salesman earns Rs10000 every month.
+He earns Rs1000 commission for every phone he sells. If he sells more than 5 phones a month,
+he earns extra Rs100 per phone (1000+100). If he sells 10 phones or more, 
+he gets extra Rs 200 for each phone over 10. He can only earn max 25000 per month. 
+He gets a bonus of Rs 25000 per year if he sells more than 100 phones in a year. 
+Calculate his monthly salary and avg salary per month in one year. 
+'''
+
+
 earningEveryMonth = 10000
 commissionForPhone = 1000
 bonusFor5phones = 100
