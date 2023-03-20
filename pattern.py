@@ -41,4 +41,4 @@ for i in pattern:
     else: 
         result = result + i
              
-print(result)
+print(result)#for print
