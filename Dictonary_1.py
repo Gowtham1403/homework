@@ -1,5 +1,5 @@
 letter = ''
-letterOccurance = {} #keyword is the char and value is the count of the char
+letterOccurance = {} 
 while (letter.lower() != 'z'):
     letter = input("Enter a character: ")
 
