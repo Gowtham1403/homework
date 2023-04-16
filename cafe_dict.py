@@ -43,11 +43,11 @@ items = {
     }
 }
 
-def itemRestock(item):
+def itemrefill(item):
     if items[item]['stock'] <= items[item]['refill']*0.2:
         items[item]['stock'] =  items[item]['refill']
 
-def processCustomerInput(customerInput):
+def processInput(customerInput):
     list1 = list(customerInput.split())
     global quantity,item
     for i in items:
@@ -58,7 +58,7 @@ def processCustomerInput(customerInput):
             for k in range(len(quantityWords)):
                 if quantityWords[k] in list1[index] or quantityDigits[k] in list1[index]:
                     quantity = int(quantityDigits[k])
-            itemRestock(item)
+            itemrefill(item)
             x['stock'] -= quantity
             x['sales'] += quantity
 
@@ -69,7 +69,7 @@ def main():
     while customer <= MaxCustomer:
         customer += 1
         customerInput = input("Enter ur order: ")
-        processCustomerInput(customerInput.lower())
+        processInput(customerInput.lower())
     #topProfitSales()
 
 main()
