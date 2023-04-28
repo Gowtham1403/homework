@@ -11,7 +11,7 @@ FirstRoll = 0
 SecondRoll = 0
 total = 0
 perFramePoint = 0
-
+numberofpins = 10
 
 while frame < 11 :
     print(f"Frame number is :{frame}")
@@ -27,4 +27,3 @@ while frame < 11 :
     print(f"Your Overall total is : {total}")
     frame = frame + 1
     
-
