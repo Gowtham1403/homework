@@ -1,4 +1,4 @@
-
+'''
 def palindrome(str):
     if len(str) <= 1:
         return True
@@ -12,3 +12,23 @@ if palindrome(str):
     print(f"{str} is a palindrome")
 else:
     print(f"{str} is not a palindrome")
+
+
+str = input("Enter the string : ")
+if str[0] == str[-1]:
+    if len(str) <= 1 :
+        print(f"{str} is palindrome")
+else:
+    print(f"{str} is not a palindrome")
+    
+'''  
+
+str = input("Enter the string : ")
+w = ""
+for i in str:
+    w = i + w
+  
+if (str == w):
+    print("It is palindrome")
+else:
+    print("It is not a palindrome")
