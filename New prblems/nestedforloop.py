@@ -23,12 +23,28 @@ for student in range (studentCount):
 print(netMark)
 
 i=0
-marks=0
+marksIndex=0
 
 #print the output
 for student in range (studentCount):
     for mark in range (markCount):
-        print (f"Mark {mark+1} for {names[i]} is : {netMark[marks]}")
-        marks+=1
+        print (f"Mark {mark+1} for {names[i]} is : {netMark[marksIndex]}")
+        marksIndex+=1
     i+=1
     
+'''
+Output:
+
+Enter the number of students : 2
+enter the name of the student: gowtham
+enter mark 1 is : 28
+enter mark 2 is : 50
+enter the name of the student: gow
+enter mark 1 is : 70
+enter mark 2 is : 90
+['28', '50', '70', '90']  
+Mark 1 for gowtham is : 28
+Mark 2 for gowtham is : 50
+Mark 1 for gow is : 70
+Mark 2 for gow is : 90
+'''

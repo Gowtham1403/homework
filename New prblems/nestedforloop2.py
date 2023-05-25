@@ -5,7 +5,7 @@
 
 #intialize the variable
 studentCount = 0
-markCount = 2
+markCount = 5
 netMark1 = []
 names = []
 
@@ -15,8 +15,8 @@ studentCount = int(input("Enter the number of students: "))
 #for loop for input and stores in list
 for student in range (studentCount):
     names.append(input("Enter the name of the student : "))
-    for mark in range (markCount):
-        inputmark1 = int(input(f"Enter mark for student {student+1} is : "))
+    for mark in range (1,markCount):
+        inputmark1 = int(input(f"Enter mark for student {names[student]} is : "))
         netMark1.append(inputmark1)
 print(netMark1)
 
