@@ -23,3 +23,19 @@ for co12 in range(noOfFavcolor2):
 print(f"favourite colors of sree is {favColor1}")
 print(f"favourite colors of aravindhan is {favColor2}")
 print(f"you both like the same color, the colors are: {commonColor}")
+
+'''
+Output:
+
+enter the number of favourite colors of sree:2
+enter the number of favourite colour of aravindhan:3
+enter your favourite color sree: red
+enter your favourite color sree: blue
+enter your favourite color aravindhan: green
+enter your favourite color aravindhan: blue
+enter your favourite color aravindhan: black
+favourite colors of sree is ['red', 'blue']
+favourite colors of aravindhan is ['green', 'black']
+you both like the same color, the colors are: ['blue']
+
+'''
