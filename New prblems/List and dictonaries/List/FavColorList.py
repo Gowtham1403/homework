@@ -15,9 +15,8 @@ for col1 in range(noOfFavColor1):
 for co12 in range(noOfFavcolor2):
     colors=input("enter your favourite color aravindhan: ")
     if colors not in favColor1:
-         favColor2.append(colors)            
+         favColor2.append(colors)
     else:
-       # print("you both like the same color that is ",colors)
         commonColor.append(colors)
             
 print(f"favourite colors of sree is {favColor1}")
