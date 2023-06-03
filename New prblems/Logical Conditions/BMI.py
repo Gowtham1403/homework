@@ -22,3 +22,10 @@ elif bmi >= 25 and bmi < 30:
 else:
     print("the person is obesity")
 
+'''
+Output:
+Enter the weight of the person in kg: 80
+enter the height of the person in meters: 2
+The body mass index of the person is : 20.0
+the person is normal weight
+'''
