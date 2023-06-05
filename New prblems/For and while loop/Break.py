@@ -29,3 +29,25 @@ while (True) :
 #print the common movies 
 print("The common movies that like by two friends are : ")
 print(commonMovieList)
+
+
+'''
+Output:
+
+What are the movies you like freind 1 ?bahubali
+What are the movies you like friend 2 ? kochadaiyaan
+Try again
+What are the movies you like freind 1 ?thunivu
+What are the movies you like friend 2 ? thunivu
+You both friends like the same movies !!
+Try again
+What are the movies you like freind 1 ?veeram
+What are the movies you like friend 2 ? veeram
+You both friends like the same movies !!
+Try again
+What are the movies you like freind 1 ?h
+What are the movies you like friend 2 ? h
+You both friends like the same movies !!
+The common movies that like by two friends are :
+['thunivu', 'veeram', 'h']
+'''
